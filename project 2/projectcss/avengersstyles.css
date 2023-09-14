@@ -1,0 +1,195 @@
+
+.headtitle{
+width: 50%;
+margin: auto;
+overflow: hidden;
+text-align: center;
+min-height: 70px;
+padding-top: 30px;
+background-color: #1B264F;
+border-radius: 10px;
+	
+
+}
+
+.heading{
+	display: inline;
+		}
+		
+.avengerslogo1
+		{
+		float: left;
+		}
+		
+.avengerslogo2
+		{
+		float: right;
+		}
+		
+
+
+h1 {
+	color: #F5F3F5;
+	margin: auto;
+	width: 50%;
+	text-align:center;
+}
+
+h2 {
+	margin: auto;
+	text-align: center;
+	color: #274690;
+}
+
+
+.nav {
+  
+  background-color: #274690;
+  font-family: Arial;
+  text-align: center;
+  float: center;
+  width:50%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 15px;
+  
+ 
+}
+
+.nav a {
+  float: center;
+  font-size: 16px;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align:center;
+  margin:auto;
+  
+}
+
+
+p{
+	color: #F5F3F5;
+}
+.intro{
+	margin: auto;
+	background-color: #1B264F;
+	width: 50%;
+	color: #576CA8;
+	padding: 20px;
+	    border-style: solid;
+	border-width: 5px;
+	border-color: #576CA8;
+	
+}
+
+.left-side{
+	float: left;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #576CA8;
+	background-color: #1B264F;
+	padding: 25px;
+}
+
+
+
+footer{
+	margin: auto;
+	background-color: #1B264F;
+	width: 50%;
+	color: #576CA8;
+	padding: 20px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #576CA8;
+	font-size: 10px;
+	text-align: center;
+}
+
+.fav{
+		margin: auto;
+	background-color: #1B264F;
+	width: 50%;
+	color: #576CA8;
+	padding: 20px;
+	    border-style: solid;
+	border-width: 5px;
+	border-color: #576CA8;
+}
+.generator{
+		margin: auto;
+	background-color: #1B264F;
+	width: 50%;
+	color: #576CA8;
+	padding: 20px;
+	    border-style: solid;
+	border-width: 5px;
+	border-color: #576CA8;
+}
+
+body{
+	background-image: url(https://www.designyourway.net/blog/wp-content/uploads/2019/04/Avengers-wallpaper-66-700x394.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+label{
+	color:#F5F3F5;
+}
+
+
+.dropbutton {
+	font-size: 16px;
+  border: none;
+  text-align: center;
+  background-color: #274690;
+  color: #F5F3F5;
+  padding: 16px;
+  
+}
+
+
+.dropbuttontn:hover, .dropbutton:focus {
+  background-color: red;
+}
+
+
+.drop {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown {
+  display: none;
+  position: absolute;
+   min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  background-color: #576CA8;
+ 
+  
+}
+
+
+.dropdown a {
+	text-decoration: none;
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  
+}
+
+
+.dropdown a:hover {background-color: #ddd}
+
+
+.show {display:block;} 
+
+.favourite{
+	color:red;
+}
+
+button{
+	color:red;
+}

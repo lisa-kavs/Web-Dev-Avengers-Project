@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-IE">
+<head>
+	<meta charset="utf-8">
+	<title>The Avengers</title>
+	<link rel="stylesheet" href="projectcss/avengersstyles.css">
+	<script src="projectjs/scripts.js"></script>
+	</head>
+	<body>
+	
+
+
+	
+		<div class="headtitle">
+		<image class="avengerslogo1" src="images/avenger logo.png" alt="logo" height="60" width="60">
+		<h1 class="heading">Avengers Assemble!</h1>
+		<image class="avengerslogo2" src="images/avenger logo.png" alt="logo" height="60" width="60">
+		</div>
+		<!-- logo source : https://commons.wikimedia.org/wiki/File:Symbol_from_Marvel%27s_The_Avengers_logo.svg-->
+		
+	 <div class="nav">
+  <a href="avengers.html">Home</a>
+  <a href="https://marvel.fandom.com/wiki/Marvel_Database">Marvel Wiki</a>
+</div> 
+
+<div class="intro">
+<h2 class="heading2">The Avengers</h2>
+<hr>
+<p>When Thors evil brother Loki invaded Earth with his army (Chitauri), the avengers we know today came together and formed S.H.I.E.L.D.
+S.H.I.E.L.D stands for Strategic Homeland Intervention, Enforcement, and Logistics Division.Nick Fury is the man who formed S.H.I.E.L.D. The first Avengers Movie
+came out in 2012 and was named "The Avengers". The first Avenger Movie made 370.6 million dollars.</p>
+</div>
+
+<br>
+
+
+<div class="left-side">
+ <div class="drop">
+  <button onclick="dropFunction()" class="dropbutton">More Marvel Content!</button>
+  <div id="dropmenu" class="dropdown">
+    <a href="https://twitter.com/marvelstudios">Marvels Twitter</a>
+    <a href="https://www.youtube.com/c/marvel">Marvels Youtube</a>
+  </div>
+</div> 
+	
+<hr>
+<h2>Watch the Hulk get angry!</h2>
+<p>Hover over Doctor Bruce Banner!</p>
+<img src="images/bruce.jpg" alt="bruce" id="brucebanner" onmouseover="changeOver()" onmouseout="changeOut()"height="250" width="250">
+
+
+
+<hr>
+<form action="" onsubmit="return false;">
+<label>Rate the Website!</label>
+<br>
+<input type="range" min="0" max="100" id="rate" onchange="slide()"><span id="like"></span>
+</form>
+</div>
+
+
+<div class="fav">
+<h2 class="fav-avenger">Who is your favourite Avenger?</h2>
+<hr>
+
+<script>
+document.write("<p> Your favourite Avenger  " + n + " is:</p>")
+</script>
+<p id="avenger-time"></p>
+ Enter your Favourite Avenger here!: <input type="text" id="favourite"> 
+ <button  onclick="display()">Enter!</button>
+</div>
+
+
+<br>
+
+<div class="generator">
+<h2 class="random">Which Avenger will you fight with?</h2>
+<hr>
+<p>Click here to find out which Avenger will work with you!</p><button type="button" class="random-game" onclick="random()">Avengers Assemble!</button>
+<p class="random-game"><span id="avenger-name"></span></p>
+<p class="random-game"><span id="avenger-enemy"></span></p>
+<p class="random-game"><span id="movie"></span></p>
+<p class="random-game"><span id="avenger-image"></span></p>
+</div>
+
+<br>
+
+
+				<footer>
+				<hr>
+				 <address>
+		         <p><small>&copy; Disney, Marvel Studios 2021 </small></p>
+				  <p><a href="mailto:officex@marvel.com">officex@marvel.com</a></p>
+				  <p>Website made by Lisa Kavanagh 2021</p>
+		         </address>
+		         </footer>
+				</body>
+				</html>
